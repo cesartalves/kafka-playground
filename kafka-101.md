@@ -37,7 +37,7 @@ Consumers
 
 ### Console Topics
 
-- docker-compose exec kafka kafka-topics --create --topic meu-topico-legal --partitions 1 --replication-factor 1 --if-not-exists --zookeeper
+- docker-compose exec kafka kafka-topics --create --topic test --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeper:2181
 
 - docker exec kafka kafka-topics --describe --zookeeper zookeeper:2181 --topic test __consumer_offsets
 
